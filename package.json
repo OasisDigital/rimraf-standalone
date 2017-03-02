@@ -1,11 +1,11 @@
 {
-  "name": "rimraf",
+  "name": "rimraf-standalone",
   "version": "2.6.1",
   "main": "rimraf.js",
-  "description": "A deep deletion module for node (like `rm -rf`)",
+  "description": "A deep deletion module for node (like `rm -rf`), available also as a single-file JS script",
   "author": "Isaac Z. Schlueter <i@izs.me> (http://blog.izs.me/)",
   "license": "ISC",
-  "repository": "git://github.com/isaacs/rimraf.git",
+  "repository": "git://github.com/kylecordes/rimraf.git",
   "scripts": {
     "test": "tap test/*.js",
     "copy-bin": "cpy bin.js --rename=bin-without-hashbang.js .",

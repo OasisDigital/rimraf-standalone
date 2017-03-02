@@ -1,8 +1,16 @@
-[![Build Status](https://travis-ci.org/isaacs/rimraf.svg?branch=master)](https://travis-ci.org/isaacs/rimraf) [![Dependency Status](https://david-dm.org/isaacs/rimraf.svg)](https://david-dm.org/isaacs/rimraf) [![devDependency Status](https://david-dm.org/isaacs/rimraf/dev-status.svg)](https://david-dm.org/isaacs/rimraf#info=devDependencies)
+[![Build Status](https://travis-ci.org/kylecordes/rimraf.svg?branch=master)](https://travis-ci.org/kylecordes/rimraf)
 
 The [UNIX command](http://en.wikipedia.org/wiki/Rm_(Unix)) `rm -rf` for node.
 
 Install with `npm install rimraf`, or just drop rimraf.js somewhere.
+
+## Fork with Standalone script
+
+This is a fork of the original rimraf, which adds a standalone script. The
+script is simply the result of bundling rimraf with its dependencies.
+
+Read further down under "Standalone script for cleaning node_modules" to
+purpose of the standalone script.
 
 ## API
 
