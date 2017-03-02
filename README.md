@@ -6,8 +6,9 @@ Install with `npm install rimraf`, or just drop rimraf.js somewhere.
 
 ## Fork (!) with standalone script
 
-This is a fork of the original rimraf, which adds a standalone script. The
-script is simply the result of bundling rimraf with its dependencies.
+This is a fork of the original rimraf, which adds a standalone single-file
+rimraf script. The script is the result of bundling rimraf with its
+dependencies, using Rollup.
 
 Read further down under "Standalone script for cleaning node_modules" to
 purpose of the standalone script.
