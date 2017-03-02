@@ -4,3 +4,4 @@ npm-debug.log
 coverage
 bin-without-hashbang.js
 rimraf-standalone.js
+settings.json
