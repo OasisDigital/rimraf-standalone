@@ -4,7 +4,7 @@ The [UNIX command](http://en.wikipedia.org/wiki/Rm_(Unix)) `rm -rf` for node.
 
 Install with `npm install rimraf`, or just drop rimraf.js somewhere.
 
-## Fork with Standalone script
+## Fork (!) with standalone script
 
 This is a fork of the original rimraf, which adds a standalone script. The
 script is simply the result of bundling rimraf with its dependencies.
@@ -119,9 +119,20 @@ violates the principle of a package including any needed development libraries
 in devDependencies, and breaks if rimraf is installed **both** globally and in
 the project.
 
-For a more comprehensive workaround, rimraf includes an extra file
+For a more comprehensive workaround, rimraf-standalone includes an extra file
 `rimraf-standalone.js` which you can copy to the root of your project, commit in
-your project, and set up a package script:
+your project, and set up a package script.
+
+If you just want to obtain the standalone script,
+**you don't even need to install this package**!
+
+Rather, do something like this:
+
+```
+wget https://unpkg.com/rimraf-standalone@2.6.1/rimraf-standalone.js
+```
+
+Then set up your package script:
 
 ```
   "scripts": {
