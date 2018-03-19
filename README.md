@@ -34,7 +34,7 @@ If you just want to obtain the standalone script,
 Rather, do something like this:
 
 ```
-wget https://unpkg.com/rimraf-standalone@2.6.1/rimraf-standalone.js
+wget https://unpkg.com/rimraf-standalone/rimraf-standalone.js
 ```
 
 Then set up your package script:
